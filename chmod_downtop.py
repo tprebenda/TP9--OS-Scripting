@@ -10,7 +10,7 @@ if __name__== "__main__":
     if len(sys.argv) < 3:
         sys.exit("Command should be of form: <script> <file_tree> <mod_code>")
     f_tree = sys.argv[1]
-    code = sys.argv[2]       # Can this be a string?
+    code = sys.argv[2]
 
     for dirpath, subdirs, files in os.walk(f_tree, topdown=False):
         for fname in files:
