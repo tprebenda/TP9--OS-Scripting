@@ -24,7 +24,7 @@ def du_bs(rep = '.'):
     return sum
 
 
-### I don't think this is doing all the things the question asked us to do...
+### Professor's provided solution... to a seemingly different exercise?
 def prof_vers(rep = '.'):
     sum = 0
     for dirpath, subdirs, files in os.walk(rep):
